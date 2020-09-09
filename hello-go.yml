@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: go-app
-        image: amrmohamady/go-app:1
+        image: amrmohamady/go-app:latest
         imagePullPolicy: IfNotPresent
           limits:
             memory: "128Mi"
