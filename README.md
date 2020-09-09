@@ -29,3 +29,11 @@ sudo mv linux-amd64/helm /usr/local/bin/
 helm version
 helm init --history-max 200
 
+2- Clone the repo 
+helm create go-app
+helm create go-app
+cp hello-go.yml go-app
+helm package go-app
+helm install go-app ./go-app
+helm ls  #this command to list all helm relases 
+kubectl get pods #to check if pods are running or not
