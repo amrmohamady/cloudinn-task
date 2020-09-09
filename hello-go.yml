@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: go-app
-        image: docker-repo.channelvas.com:5000/go-app:1
+        image: amrmohamady/go-app:1
         imagePullPolicy: IfNotPresent
           limits:
             memory: "128Mi"
